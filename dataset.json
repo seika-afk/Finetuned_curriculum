@@ -1,0 +1,775 @@
+[
+  {
+    "input": "What is the course code and credits for Digital Electronics and Logic Design?",
+    "output": {
+      "course_name": "Digital Electronics and Logic Design",
+      "course_code": "EC-211",
+      "course_type": "Core",
+      "credits": 3,
+      "contact_hours_per_week": "3L",
+      "semester": 3
+    }
+  },
+  {
+    "input": "List the units and topics covered in EC-211 Digital Electronics and Logic Design.",
+    "output": {
+      "course_code": "EC-211",
+      "units": [
+        {"unit": "UNIT-01", "topic": "Introduction: Number systems, Binary Arithmetic, BCD codes, Excess-3 code, Gray code, Hamming code, DAC, ADC", "hours": "08L"},
+        {"unit": "UNIT-02", "topic": "Logic Gates and Logic Families: RTL, DTL, TTL, ECL, MOS and CMOS", "hours": "06L"},
+        {"unit": "UNIT-03", "topic": "Combinational Logic Design: Boolean Algebra, Karnaugh-Map, Tabulation method, VEM method", "hours": "12L"},
+        {"unit": "UNIT-04", "topic": "MSI and PLD Components: Binary Adder/Subtractor, Decoders, Encoders, Multiplexers, PROM, PLA, PAL", "hours": "06L"},
+        {"unit": "UNIT-05", "topic": "Sequential Logic Design: Latches, Flip-flops, Registers, Counters, Finite State Machine", "hours": "08L"}
+      ]
+    }
+  },
+  {
+    "input": "What are the course outcomes for Analog Electronics EC-212?",
+    "output": {
+      "course_code": "EC-212",
+      "course_name": "Analog Electronics",
+      "course_outcomes": [
+        "CO1: Develop the ability to analyze and design analog electronic circuits using discrete components.",
+        "CO2: Understand the use of small-signal models to predict gain and behavior in transistor amplifier.",
+        "CO3: Describe the design trade-offs in analog amplifier circuits.",
+        "CO4: Design tuned amplifiers and apply them in a communications system."
+      ]
+    }
+  },
+  {
+    "input": "What subjects are taught in the 3rd semester of B.Tech ECE at NIT Hamirpur?",
+    "output": {
+      "semester": 3,
+      "subjects": [
+        {"code": "EC-211", "name": "Digital Electronics and Logic Design", "L": 3, "T": 0, "P": 0, "credits": 3},
+        {"code": "EC-212", "name": "Analog Electronics", "L": 3, "T": 0, "P": 0, "credits": 3},
+        {"code": "EC-213", "name": "Communication Theory", "L": 3, "T": 0, "P": 0, "credits": 3},
+        {"code": "EC-214", "name": "VLSI Technology", "L": 3, "T": 0, "P": 0, "credits": 3},
+        {"code": "EC-215", "name": "Network Analysis and Synthesis", "L": 2, "T": 0, "P": 0, "credits": 2},
+        {"code": "MA-218", "name": "Numerical Analysis and Statistics", "L": 3, "T": 0, "P": 0, "credits": 3},
+        {"code": "EC-216", "name": "Digital Electronics and Logic Design Lab", "L": 0, "T": 0, "P": 2, "credits": 1},
+        {"code": "EC-217", "name": "Analog Electronics Lab", "L": 0, "T": 0, "P": 2, "credits": 1},
+        {"code": "EC-218", "name": "Electronics Workshop", "L": 0, "T": 0, "P": 2, "credits": 1}
+      ],
+      "total_credits": 20
+    }
+  },
+  {
+    "input": "What subjects are taught in the 4th semester of B.Tech ECE at NIT Hamirpur?",
+    "output": {
+      "semester": 4,
+      "subjects": [
+        {"code": "EC-221", "name": "Linear Integrated Circuits", "L": 3, "T": 0, "P": 0, "credits": 3},
+        {"code": "EC-222", "name": "Analog Communication Systems", "L": 3, "T": 0, "P": 0, "credits": 3},
+        {"code": "EC-223", "name": "Microprocessors and Microcontrollers", "L": 3, "T": 0, "P": 0, "credits": 3},
+        {"code": "EC-224", "name": "Electromagnetic Field Theory", "L": 3, "T": 1, "P": 0, "credits": 4},
+        {"code": "EC-241/242/243", "name": "Discipline Elective-I", "L": 3, "T": 0, "P": 0, "credits": 3},
+        {"code": "EC-225", "name": "Linear Integrated Circuits Lab", "L": 0, "T": 0, "P": 2, "credits": 1},
+        {"code": "EC-226", "name": "Analog Communication Lab", "L": 0, "T": 0, "P": 2, "credits": 1},
+        {"code": "EC-227", "name": "Microprocessors and Microcontrollers Lab", "L": 0, "T": 0, "P": 2, "credits": 1},
+        {"code": "SA-201", "name": "LA/CA (Institute Elective)", "L": 0, "T": 0, "P": 2, "credits": 1}
+      ],
+      "total_credits": 20
+    }
+  },
+  {
+    "input": "What are the Discipline Elective-I options in the 4th semester?",
+    "output": {
+      "elective": "Discipline Elective-I",
+      "semester": 4,
+      "options": [
+        {"code": "EC-241", "name": "Electronic Device Modeling"},
+        {"code": "EC-242", "name": "Nano Technology"},
+        {"code": "EC-243", "name": "Digital Arithmetic"}
+      ]
+    }
+  },
+  {
+    "input": "Describe the syllabus for VLSI Technology EC-214.",
+    "output": {
+      "course_code": "EC-214",
+      "course_name": "VLSI Technology",
+      "course_type": "Core",
+      "credits": 3,
+      "units": [
+        {"unit": "UNIT-01", "topic": "Introduction to VLSI: Miniaturization of Electronic Systems", "hours": "03L"},
+        {"unit": "UNIT-02", "topic": "Monolithic Fabrication Techniques: Crystal growth, Epitaxial Process, Oxidation, Lithography, Etching, Diffusion and Ion Implantation, Metallization", "hours": "21L"},
+        {"unit": "UNIT-03", "topic": "Packaging of VLSI Chip: packaging process, package design considerations, package types", "hours": "04L"},
+        {"unit": "UNIT-04", "topic": "Isolation Techniques in Monolithic Components: Diodes, BJT and MOSFETs", "hours": "04L"},
+        {"unit": "UNIT-05", "topic": "Monolithic Components Prototype Fabrication: Diodes, npn BJT, pnp BJT, MOSFETs, n-MOS, p-MOS, CMOS, Resistors and Capacitors", "hours": "04L"}
+      ],
+      "books": [
+        "VLSI Technology by S.M. Sze, Tata Mc-Graw Hill",
+        "VLSI Fabrication Principles by S.K. Gandhi, John Willey & Sons",
+        "Integrated Circuits by K.R. Botkar, Khanna Publishers"
+      ]
+    }
+  },
+  {
+    "input": "What are the subjects in the 5th semester of B.Tech ECE?",
+    "output": {
+      "semester": 5,
+      "subjects": [
+        {"code": "EC-311", "name": "Microwave Devices and Systems", "credits": 3},
+        {"code": "EC-312", "name": "Digital Communication and Systems", "credits": 3},
+        {"code": "EC-313", "name": "Control Systems", "credits": 3},
+        {"code": "EC-314", "name": "VLSI Design", "credits": 3},
+        {"code": "EC-301 to EC-304", "name": "Open Elective", "credits": 3},
+        {"code": "EC-351 to EC-353", "name": "Discipline Elective-II", "credits": 3},
+        {"code": "EC-315", "name": "Digital Communication Lab", "credits": 1},
+        {"code": "EC-316", "name": "VLSI Design Lab", "credits": 1}
+      ],
+      "total_credits": 20
+    }
+  },
+  {
+    "input": "What subjects are available as Open Electives in ECE B.Tech?",
+    "output": {
+      "elective_type": "Open Elective",
+      "options": [
+        {"code": "EC-301", "name": "Microcontroller and Embedded System"},
+        {"code": "EC-302", "name": "MEMS and Sensor Design"},
+        {"code": "EC-303", "name": "Communication Systems"},
+        {"code": "EC-304", "name": "VLSI Design and Techniques"}
+      ]
+    }
+  },
+  {
+    "input": "What are the subjects in the 6th semester of B.Tech ECE?",
+    "output": {
+      "semester": 6,
+      "subjects": [
+        {"code": "EC-321", "name": "Digital Signal Processing", "credits": 3},
+        {"code": "EC-322", "name": "Antenna and Wave Propagation", "credits": 3},
+        {"code": "EC-323", "name": "Electronic Measurements and Instrumentation", "credits": 2},
+        {"code": "EC-341 to EC-343", "name": "Discipline Elective-III", "credits": 3},
+        {"code": "EC-361 to EC-363", "name": "Discipline Elective-IV", "credits": 3},
+        {"code": "EC-381 to EC-382", "name": "Stream Core-I", "credits": 2},
+        {"code": "HS-321", "name": "Engineering Economics and Accountancy", "credits": 2},
+        {"code": "EC-324", "name": "Digital Signal Processing Lab", "credits": 1},
+        {"code": "EC-325", "name": "Antenna and Microwave Systems Lab", "credits": 1}
+      ],
+      "total_credits": 20
+    }
+  },
+  {
+    "input": "What are the Discipline Elective-III options?",
+    "output": {
+      "elective": "Discipline Elective-III",
+      "semester": 6,
+      "options": [
+        {"code": "EC-341", "name": "Data Communication and Computer Networks"},
+        {"code": "EC-342", "name": "Spread Spectrum and Wideband Communication"},
+        {"code": "EC-343", "name": "Satellite Communication and Radar"}
+      ]
+    }
+  },
+  {
+    "input": "What are the Discipline Elective-IV options?",
+    "output": {
+      "elective": "Discipline Elective-IV",
+      "semester": 6,
+      "options": [
+        {"code": "EC-361", "name": "Digital Image Processing"},
+        {"code": "EC-362", "name": "Speech Processing"},
+        {"code": "EC-363", "name": "Estimation and Detection Theory"}
+      ]
+    }
+  },
+  {
+    "input": "What are the Stream Core-I subjects?",
+    "output": {
+      "stream_core": "Stream Core-I",
+      "semester": 6,
+      "subjects": [
+        {"code": "EC-381", "name": "Hardware Description Language", "credits": 2},
+        {"code": "EC-382", "name": "Simulation of Communication Systems", "credits": 2}
+      ]
+    }
+  },
+  {
+    "input": "What subjects are taught in the 7th semester of B.Tech ECE?",
+    "output": {
+      "semester": 7,
+      "subjects": [
+        {"code": "EC-411", "name": "Computer Architecture and Organization", "credits": 3},
+        {"code": "EC-412", "name": "Wireless Communication", "credits": 3},
+        {"code": "EC-413", "name": "Optical Fiber Communication", "credits": 3},
+        {"code": "EC-431 to EC-433", "name": "Discipline Elective-V", "credits": 3},
+        {"code": "EC-451 to EC-452", "name": "Stream Core-II", "credits": 2},
+        {"code": "EC-471 to EC-472", "name": "Stream Core-III", "credits": 2},
+        {"code": "EC-414", "name": "Optical Fiber Communication Lab", "credits": 1},
+        {"code": "EC-415", "name": "Communication Systems and Network Simulation Lab", "credits": 1},
+        {"code": "EC-416", "name": "Industrial Training Evaluation", "credits": 2}
+      ],
+      "total_credits": 20
+    }
+  },
+  {
+    "input": "What are the Discipline Elective-V options?",
+    "output": {
+      "elective": "Discipline Elective-V",
+      "semester": 7,
+      "options": [
+        {"code": "EC-431", "name": "FPGA SoC Design"},
+        {"code": "EC-432", "name": "Neural Network and Deep Learning"},
+        {"code": "EC-433", "name": "VLSI Testing"}
+      ]
+    }
+  },
+  {
+    "input": "What are the Stream Core-II and Stream Core-III subjects?",
+    "output": {
+      "stream_core_II": {
+        "semester": 7,
+        "subjects": [
+          {"code": "EC-451", "name": "Information Theory and Coding", "credits": 2},
+          {"code": "EC-452", "name": "Analog IC Design", "credits": 2}
+        ]
+      },
+      "stream_core_III": {
+        "semester": 7,
+        "subjects": [
+          {"code": "EC-471", "name": "Artificial Intelligence and Machine Learning", "credits": 2},
+          {"code": "EC-472", "name": "Embedded Systems", "credits": 2}
+        ]
+      }
+    }
+  },
+  {
+    "input": "What subjects are taught in the 8th semester of B.Tech ECE?",
+    "output": {
+      "semester": 8,
+      "subjects": [
+        {"code": "EC-461 to EC-469", "name": "Stream Elective-I", "credits": 3},
+        {"code": "EC-480 to EC-489", "name": "Stream Elective-II", "credits": 3},
+        {"code": "EC-498", "name": "Holistic Assessment / General Proficiency", "credits": 2},
+        {"code": "EC-499", "name": "UG Project", "credits": 12}
+      ],
+      "total_credits": 20,
+      "note": "Students opting for internship will complete UG project; remaining credits fulfilled via Free Elective Courses."
+    }
+  },
+  {
+    "input": "What are the Stream Elective-I options in the 8th semester?",
+    "output": {
+      "elective": "Stream Elective-I",
+      "semester": 8,
+      "options": [
+        {"code": "EC-461", "name": "Applied Linear Algebra for Signal Processing, Data Analytics and Machine Learning"},
+        {"code": "EC-462", "name": "RF and Microwave Circuit Design"},
+        {"code": "EC-463", "name": "Low Power VLSI Design Techniques"},
+        {"code": "EC-464", "name": "VLSI Interconnects and Packaging"},
+        {"code": "EC-465", "name": "Internet of Things and Applications"},
+        {"code": "EC-466", "name": "Wavelet Transform and Applications"},
+        {"code": "EC-467", "name": "RF Microelectronics"},
+        {"code": "EC-468", "name": "Embedded Networking and Device Driver Programming"},
+        {"code": "EC-469", "name": "VLSI Verification"}
+      ]
+    }
+  },
+  {
+    "input": "What are the Stream Elective-II options in the 8th semester?",
+    "output": {
+      "elective": "Stream Elective-II",
+      "semester": 8,
+      "options": [
+        {"code": "EC-480", "name": "Compound Semiconductors: Properties & Applications"},
+        {"code": "EC-481", "name": "Adaptive Signal Processing"},
+        {"code": "EC-482", "name": "Advanced Antenna and Electromagnetic Metamaterials: Concept and Applications"},
+        {"code": "EC-483", "name": "Nano Electronics: Devices and Materials"},
+        {"code": "EC-484", "name": "Characterization of Semiconductor Materials & Devices"},
+        {"code": "EC-485", "name": "Embedded Hardware Design"},
+        {"code": "EC-486", "name": "Electromagnetic Interference and Compatibility"},
+        {"code": "EC-487", "name": "Nanophotonics and Plasmonics: Concept and Applications"},
+        {"code": "EC-488", "name": "Advanced IC Design"},
+        {"code": "EC-489", "name": "Electronic Packaging"}
+      ]
+    }
+  },
+  {
+    "input": "What is the total credit distribution in the B.Tech ECE program at NIT Hamirpur?",
+    "output": {
+      "total_credits": 160,
+      "credit_distribution": {
+        "Institute_Core_IC": 44,
+        "Institute_Elective_IE": 4,
+        "Discipline_Core_DC": 85,
+        "Discipline_Elective_DE": 15,
+        "Stream_Core_SC": 6,
+        "Stream_Elective_SE": 6
+      },
+      "credits_per_semester": {
+        "semester_1": 20,
+        "semester_2": 20,
+        "semester_3": 20,
+        "semester_4": 20,
+        "semester_5": 20,
+        "semester_6": 20,
+        "semester_7": 20,
+        "semester_8": 20
+      }
+    }
+  },
+  {
+    "input": "What are the course objectives of EC-312 Digital Communication and Systems?",
+    "output": {
+      "course_code": "EC-312",
+      "course_name": "Digital Communication and Systems",
+      "course_objectives": [
+        "To impart knowledge about the key modules of digital communication systems with emphasis on digital modulation techniques.",
+        "To introduce the fundamental concepts relevant to reception of digital signals.",
+        "To enable the students to understand the concept and basics of information theory and the basics of channel coding/decoding."
+      ]
+    }
+  },
+  {
+    "input": "What are the units in EC-313 Control Systems?",
+    "output": {
+      "course_code": "EC-313",
+      "course_name": "Control Systems",
+      "credits": 3,
+      "units": [
+        {"unit": "UNIT-01", "topic": "Basic Concepts: Historical Review, Definitions, Classification, Open and Closed Loop Systems", "hours": "03L"},
+        {"unit": "UNIT-02", "topic": "Mathematical Models of Control System: Transfer Function, Electrical, Mechanical and Thermal Systems, Block Diagrams and Signal Flow Graphs", "hours": "07L"},
+        {"unit": "UNIT-03", "topic": "Control Components: DC Servomotor, AC Servomotor, Potentiometers, Stepper Motor", "hours": "05L"},
+        {"unit": "UNIT-04", "topic": "Time and Frequency Domain Analysis: Transient and Frequency Response, P, PD, PI and PID Controllers", "hours": "07L"},
+        {"unit": "UNIT-05", "topic": "Stability Analysis: Routh-Hurwitz Criterion, Root Locus, Nyquist Criterion, Bode Plots", "hours": "07L"},
+        {"unit": "UNIT-06", "topic": "State Variable Analysis: State Space Representation, Controllability and Observability", "hours": "07L"}
+      ]
+    }
+  },
+  {
+    "input": "What are the reference books for EC-322 Antenna and Wave Propagation?",
+    "output": {
+      "course_code": "EC-322",
+      "course_name": "Antenna and Wave Propagation",
+      "books_and_references": [
+        "Antennas Theory by C.A. Balanis, Willey Publication.",
+        "Antennas by J.D. Kraus, McGraw Hill.",
+        "Antennas and Radio Propagation by R.E. Collins, McGraw-Hill.",
+        "Electromagnetic waves & radiating System, E.C. Jorden and B.C. Balmann, P.H.I."
+      ]
+    }
+  },
+  {
+    "input": "What experiments are conducted in the Digital Electronics and Logic Design Lab EC-216?",
+    "output": {
+      "course_code": "EC-216",
+      "course_name": "Digital Electronics and Logic Design Lab",
+      "experiments": [
+        "1. Study about logic gates and verify their truth tables.",
+        "2. Realization of AND and OR gates using diodes/resistors and universal gates.",
+        "3. Design and implement half adder and full adder circuits.",
+        "4. Design and implement half subtractor and full subtractor circuits.",
+        "5. Design and implement 4-bit binary to gray code converter.",
+        "6. Design and implement BCD to excess-3 code converter.",
+        "7. Design and implement 2-bit and 8-bit magnitude comparators.",
+        "8. Design and implement multiplexer and demultiplexer.",
+        "9. Implementation of Boolean functions using multiplexer.",
+        "10. Design and implement encoder and decoder.",
+        "11. Realization of SR, JK, D and T flip flops using gates.",
+        "12. Design and implement 3-bit synchronous up counter.",
+        "13. Design and implement 3-bit asynchronous up/down counter.",
+        "14. Design BCD to seven segment display using IC 7447."
+      ]
+    }
+  },
+  {
+    "input": "What are the course outcomes for EC-321 Digital Signal Processing?",
+    "output": {
+      "course_code": "EC-321",
+      "course_name": "Digital Signal Processing",
+      "course_outcomes": [
+        "CO1: Understand the discrete time signals and systems.",
+        "CO2: Understand the Fourier transform and Fourier series of discrete time signals.",
+        "CO3: Analyse the discrete time signals in frequency domain using DFT and FFT.",
+        "CO4: Understand the Z-Transform and its properties.",
+        "CO5: Understand the realization structures for FIR and IIR digital filters.",
+        "CO6: Analyse the design characteristic of FIR and IIR filters."
+      ]
+    }
+  },
+  {
+    "input": "What is the syllabus of EC-411 Computer Architecture and Organization?",
+    "output": {
+      "course_code": "EC-411",
+      "course_name": "Computer Architecture and Organization",
+      "course_type": "Core",
+      "credits": 3,
+      "units": [
+        {"unit": "UNIT-01", "topic": "Basics of Computer Architecture: Codes, Number System, Logic gates, Flip flops, Registers, Counters, Multiplexer, Bus & memory transfer, Logic micro operations", "hours": "05L"},
+        {"unit": "UNIT-02", "topic": "Basic Computer Organization: Instruction codes, Timing & control, Instruction Cycles, Memory reference instruction, I/O and Interrupts", "hours": "07L"},
+        {"unit": "UNIT-03", "topic": "ARM Processor Fundamentals: ARM core data flow model, Architecture, General Purpose Register set, Exceptions, Interrupts, ARM processors family", "hours": "08L"},
+        {"unit": "UNIT-04", "topic": "Central Processing Unit: General register organization, RISC, CISC, Multiplication Algorithms, Division algorithms, DMA transfer, I/O processor", "hours": "07L"},
+        {"unit": "UNIT-05", "topic": "Memory Unit: Memory hierarchy, Cache memory, Associative memory, Virtual memory, Memory management", "hours": "05L"},
+        {"unit": "UNIT-06", "topic": "Introduction to Parallel Processing: Pipelining, Multiprocessors, Interconnection structures", "hours": "04L"}
+      ]
+    }
+  },
+  {
+    "input": "What are the course objectives and outcomes for EC-432 Neural Network and Deep Learning?",
+    "output": {
+      "course_code": "EC-432",
+      "course_name": "Neural Network and Deep Learning",
+      "course_type": "Discipline Elective-V",
+      "credits": 3,
+      "course_objectives": [
+        "To develop artificial intelligence and machine learning techniques for solving various real-life problems."
+      ],
+      "course_outcomes": [
+        "CO1: Understand the fundamentals of artificial intelligence and machine learning.",
+        "CO2: Understand the concepts of selected machine learning algorithms.",
+        "CO3: Understand the concepts of neural network learning.",
+        "CO4: Understand the concepts of deep neural networks."
+      ]
+    }
+  },
+  {
+    "input": "What topics are covered in EC-432 Neural Network and Deep Learning?",
+    "output": {
+      "course_code": "EC-432",
+      "course_name": "Neural Network and Deep Learning",
+      "units": [
+        {"unit": "UNIT-01", "topic": "Neural Network Learning: Models of a Neuron, MLP, Back Propagation, Loss Functions, Gradient Descent, MLP for Classification and Regression", "hours": "06L"},
+        {"unit": "UNIT-02", "topic": "Deep Learning: Unsupervised Learning, Autoencoders, CNN, Transfer Learning, RNN, Dropout, Batch Normalization", "hours": "07L"},
+        {"unit": "UNIT-03", "topic": "Effective training in Deep Net: early stopping, Dropout, Batch Normalization, Instance Normalization, Group Normalization", "hours": "07L"},
+        {"unit": "UNIT-04", "topic": "Recent Trends: GAN, CNN and RNN for Signal Classification, Image Segmentation, Image Denoising, Object Detection", "hours": "08L"},
+        {"unit": "UNIT-05", "topic": "Classical Supervised Tasks, Image Denoising, Semantic Segmentation, LSTM Networks, Variational Autoencoder, GAN", "hours": "08L"}
+      ]
+    }
+  },
+  {
+    "input": "What is the syllabus for EC-465 Internet of Things and Applications?",
+    "output": {
+      "course_code": "EC-465",
+      "course_name": "Internet of Things and Applications",
+      "course_type": "Stream Elective-I",
+      "credits": 3,
+      "units": [
+        {"unit": "UNIT-01", "topic": "Introduction to IoT: Sensing, Actuation, IoT Networking, Connectivity Technologies, Communication Protocols, Sensor Networks, UAV Networks, M2M Communications", "hours": "07L"},
+        {"unit": "UNIT-02", "topic": "Interoperability in IoT, Arduino Programming, Sensors and Actuators with Arduino, Python programming, Raspberry Pi", "hours": "07L"},
+        {"unit": "UNIT-03", "topic": "Implementation of IoT with Raspberry Pi, SDN for IoT, Data Handling and Analytics", "hours": "07L"},
+        {"unit": "UNIT-04", "topic": "Cloud Computing: Fundamentals, Service Models, Service Management, Sensor-Cloud, Fog Computing", "hours": "07L"},
+        {"unit": "UNIT-05", "topic": "Applications: Smart Cities, Smart Homes, Connected Vehicles, Smart Grid, Industrial IoT, Agriculture, Healthcare, Activity Monitoring", "hours": "08L"}
+      ]
+    }
+  },
+  {
+    "input": "Describe the course EC-224 Electromagnetic Field Theory.",
+    "output": {
+      "course_code": "EC-224",
+      "course_name": "Electromagnetic Field Theory",
+      "course_type": "Core",
+      "contact_hours": "3L + 1T",
+      "credits": 4,
+      "units": [
+        {"unit": "UNIT-01", "topic": "Introduction: Vector algebra, Coordinate systems (rectangular, cylindrical, spherical), Gradient, Divergence, Curl", "hours": "07L"},
+        {"unit": "UNIT-02", "topic": "Electrostatics: Coulomb's law, Gauss's law, Electric flux density, Laplace's and Poisson's equations", "hours": "08L"},
+        {"unit": "UNIT-03", "topic": "Magnetostatics: Biot-Savart's law, Ampere's Circuital law, Lorentz force equation, Magnetic Vector Potential", "hours": "08L"},
+        {"unit": "UNIT-04", "topic": "Time Varying EM Field: Maxwell's equations, Plane wave in dielectric and conductor, Poynting theorem", "hours": "10L"},
+        {"unit": "UNIT-05", "topic": "Transmission Line: Model, Reflections, VSWR, Impedance matching, Quarter and half wave lines, stub matching", "hours": "09L"}
+      ]
+    }
+  },
+  {
+    "input": "What programming experiments are done in EC-227 Microprocessors and Microcontrollers Lab?",
+    "output": {
+      "course_code": "EC-227",
+      "course_name": "Microprocessors and Microcontrollers Lab",
+      "experiments": [
+        "1. On 8085 kit, find the Factorial of a number.",
+        "2. On 8085 kit, find if a number is prime or a perfect square.",
+        "3. On 8051 kit, write a program to perform serial data transfer.",
+        "4. On 8051 kit, generate square wave for a given frequency and duty cycle.",
+        "5. On cortex M3, write a program to perform LED blinking.",
+        "6. On cortex M3, write a program to verify Digitalout.",
+        "7. On cortex M3, write a program to display clock on 7-segment display.",
+        "8. On cortex M3, write a program to generate Analog output.",
+        "9. On cortex M3, write a program to read in Analog input.",
+        "10. On cortex M3, write a program to debug using serial pc.",
+        "11. On cortex M3, write a program to generate PWM output.",
+        "12. On cortex M3, write a program to perform counting on LCD counter.",
+        "13. On cortex M3, write a program to learn Interrupt function.",
+        "14. On cortex M3, write a program to understand I2C master and slave communication.",
+        "15. On Intel Galileo Gen 2, plot a graph for analog input.",
+        "16. On Intel Galileo Gen 2, write an Array in Arduino."
+      ]
+    }
+  },
+  {
+    "input": "What are the objectives and outcomes of EC-463 Low Power VLSI Design Techniques?",
+    "output": {
+      "course_code": "EC-463",
+      "course_name": "Low Power VLSI Design Techniques",
+      "course_type": "Stream Elective-I",
+      "credits": 3,
+      "course_objectives": [
+        "To impart knowledge about the dominant sources of power dissipation in VLSI circuits.",
+        "To introduce fundamental concepts for optimization of power at all design levels: technology, circuit, logic, and architectural level.",
+        "To enable the students to be aware of power estimation by various means."
+      ],
+      "course_outcomes": [
+        "CO1: Identify sources of power dissipation in VLSI systems.",
+        "CO2: Analyze various circuit and logic design techniques for dynamic and leakage power reduction.",
+        "CO3: Design arithmetic circuits, latches and flip flops with different logic styles.",
+        "CO4: Understand the concepts of probability and random logic signals for estimation of capacitance and power dissipation.",
+        "CO5: Understand power management through architectural level techniques."
+      ]
+    }
+  },
+  {
+    "input": "What is the complete list of experiments in EC-325 Antenna and Microwave Systems Lab?",
+    "output": {
+      "course_code": "EC-325",
+      "course_name": "Antenna and Microwave Systems Lab",
+      "experiments": [
+        "1. Study of Microwave Components, Sources and Different Types of Loads at X Band Setup.",
+        "2. Study of Characteristics of Reflex Klystron Oscillator and its Mechanical and Electronics Tuning Range.",
+        "3. Study of V-I Characteristics of Gunn Diode and its Negative Resistance.",
+        "4. Determine Insertion Loss and Isolation Parameter of a Ferrite Based Isolator and Circulators.",
+        "5. Measure Frequency in a Rectangular Waveguide and Relationship among Frequency, Free Space Wavelength and Guide Wavelength.",
+        "6. Study Characteristics of Various Tees: E-Plane Tee, H-Plane Tee and Magic Tees.",
+        "7. Measure Coupling and Directivity of a 3 dB, 10 dB and 20 dB Directional Couplers.",
+        "8. Measure Low, Medium, and High VSWR of DUT Using Slotted Lines Section.",
+        "9. Measure Unknown Impedances using Smith Chart.",
+        "10. Measure VSWR, Insertion Loss, Attenuation of Fixed and Variable Attenuators.",
+        "11. Plot Radiation Pattern of a Pyramidal Horn Antenna and determine Gain and Beam width.",
+        "12. Study of Vector Network Analyzer (VNA) and its applications.",
+        "13. Study the E-and H-field of a Rectangular Waveguide using HFSS/CST."
+      ]
+    }
+  },
+  {
+    "input": "What are the reference books for EC-412 Wireless Communication?",
+    "output": {
+      "course_code": "EC-412",
+      "course_name": "Wireless Communication",
+      "books_and_references": [
+        "Wireless Communications: Principles and Practice by Theodore S. Rappaport, Pearson / PHI Publications.",
+        "Wireless Communications and Networks: 3G and Beyond by Iti Saha Misra, Tata McGraw Hill Publications.",
+        "Mobile Cellular Telecommunications: Analog and Digital Systems by William C.Y. Lee, Tata McGraw Hill Publication.",
+        "Wireless Digital Communications by Kamilo Feher, PHI Publication."
+      ]
+    }
+  },
+  {
+    "input": "Describe the course structure and syllabus of MA-218 Numerical Analysis and Statistics.",
+    "output": {
+      "course_code": "MA-218",
+      "course_name": "Numerical Analysis and Statistics",
+      "course_type": "Core",
+      "credits": 3,
+      "semester": 3,
+      "units": [
+        {"unit": "Unit-01", "topic": "Introduction to Complex Numbers: De Moivre's theorem, Exponential, Circular, Hyperbolic and Logarithmic functions", "lectures": 5},
+        {"unit": "Unit-02", "topic": "Functions of Complex Variable: Cauchy-Riemann equations, Analytic functions, Complex integration, Taylor and Laurent series, Cauchy's residue theorem", "lectures": 6},
+        {"unit": "Unit-03", "topic": "Interpolation: Least square curve fit, Finite differences, Newton's interpolation formulae, Lagrange's interpolation", "lectures": 5},
+        {"unit": "Unit-04", "topic": "Numerical Integration and Differentiation: Trapezoidal, Simpson's rules, Taylor series, Picard's, Euler's, Runge-Kutta methods", "lectures": 8},
+        {"unit": "Unit-05", "topic": "Numerical Solution of Linear and Non Linear Equations: Bisection, Regula Falsi, Newton-Raphson, Jacobi and Gauss-Seidel methods", "lectures": 6},
+        {"unit": "Unit-06", "topic": "Probability and Statistics: Conditional probability, Binomial, Poisson and Normal distributions", "lectures": 6}
+      ]
+    }
+  },
+  {
+    "input": "What is the total number of credits in each course type for the ECE B.Tech program?",
+    "output": {
+      "program": "B.Tech ECE, NIT Hamirpur",
+      "course_type_credits": {
+        "Institute_Core_IC": {"total": 44, "percentage": "27%"},
+        "Institute_Elective_IE": {"total": 4, "percentage": "3%"},
+        "Discipline_Core_DC": {"total": 85, "percentage": "53%"},
+        "Discipline_Elective_DE": {"total": 15, "percentage": "9%"},
+        "Stream_Core_SC": {"total": 6, "percentage": "4%"},
+        "Stream_Elective_SE": {"total": 6, "percentage": "4%"}
+      },
+      "grand_total": 160
+    }
+  },
+  {
+    "input": "What are the course objectives for EC-341 Data Communication and Computer Networks?",
+    "output": {
+      "course_code": "EC-341",
+      "course_name": "Data Communication and Computer Networks",
+      "course_type": "Discipline Elective-III",
+      "credits": 3,
+      "course_objectives": [
+        "To introduce basic concepts of Data communication with different models including the OSI and TCP/IP reference models.",
+        "Enumerate the physical layer, Data Link Layer, Network Layer, Transport Layer and Application Layer and explain the function of each layer.",
+        "Understanding of switching concept and different types of switching techniques."
+      ]
+    }
+  },
+  {
+    "input": "List the experiments for EC-324 Digital Signal Processing Lab.",
+    "output": {
+      "course_code": "EC-324",
+      "course_name": "Digital Signal Processing Lab",
+      "experiments": [
+        "1. Demonstrate the Nyquist-Shannon sampling theorem and perform sampling and reconstruction of analog signals.",
+        "2. Generate and analyze fundamental signals (sinusoidal, square, triangular, sawtooth, noise) using Fourier transform.",
+        "3. Perform linear convolution, correlation and circular convolution using MATLAB.",
+        "4. Perform Z-transform of signals using MATLAB and analyse properties of Z-transform.",
+        "5. Perform DFT of signals using MATLAB and analyze frequency domain characteristics.",
+        "6. Implement FFT algorithm to reduce computation complexity in MATLAB.",
+        "7. Design and implement digital filters: low-pass, high-pass, band-pass, and band-stop using FIR and IIR structures.",
+        "8. Image Processing: perform image filtering, edge detection, and image compression using MATLAB.",
+        "9. DSP Hardware Implementation on TMS320C6713 Processor Kits.",
+        "10. Project Work on a specific DSP application (audio processing, speech recognition, or image processing)."
+      ]
+    }
+  },
+  {
+    "input": "What is the syllabus for EC-471 Artificial Intelligence and Machine Learning?",
+    "output": {
+      "course_code": "EC-471",
+      "course_name": "Artificial Intelligence and Machine Learning",
+      "course_type": "Stream Core-III",
+      "credits": 2,
+      "units": [
+        {"unit": "UNIT-01", "topic": "Intelligent Agents and Problem-Solving: Foundations of AI, History, Rational Agents, Search Algorithms, Heuristic Functions", "lectures": "06L"},
+        {"unit": "UNIT-02", "topic": "Introduction to Machine Learning: Bayesian Decision Theory, PCA, Linear Discriminant Analysis", "lectures": "06L"},
+        {"unit": "UNIT-03", "topic": "Selected ML Algorithms: Linear Regression, Decision Tree, SVM, Logistic Regression, Kernels, HMM", "lectures": "06L"},
+        {"unit": "UNIT-04", "topic": "Ensemble Learning and Clustering: Boosting, K-means, Fuzzy K-means, Hierarchical Agglomerative Clustering", "lectures": "06L"}
+      ]
+    }
+  },
+  {
+    "input": "What are the reference books for EC-314 VLSI Design?",
+    "output": {
+      "course_code": "EC-314",
+      "course_name": "VLSI Design",
+      "books_and_references": [
+        "CMOS Digital Integrated Circuits-Analysis & Design by S.M. Kang and Y. Leblebici, TMH.",
+        "Design of Analog CMOS Integrated Circuits by B. Razavi, TMH.",
+        "Solid State Electronic Devices by B.G. Streetman and S. Banerjee, PHI.",
+        "Principles of CMOS VLSI Design-A Systems Perspective by Neil H.E. Weste and K. Eshraghian.",
+        "Introduction to VLSI by K. Eshraghian and Pucknell, PHI."
+      ]
+    }
+  },
+  {
+    "input": "What are the course outcomes for EC-415 Communication Systems and Network Simulation Lab?",
+    "output": {
+      "course_code": "EC-415",
+      "course_name": "Communication Systems and Network Simulation Lab",
+      "course_outcomes": [
+        "CO1: Understand the fundamental concepts of communication systems and networks, including signal processing, coding, modulation, and multiple access techniques.",
+        "CO2: Analyse and evaluate the performance of digital communication systems using simulation and modelling techniques.",
+        "CO3: Proficiently use simulation tools and software (MATLAB/Simulink, Python, Network simulators) to design, implement and evaluate communication systems.",
+        "CO4: Develop critical thinking skills, problem-solving skills, and apply theoretical concepts to practical scenarios.",
+        "CO5: Prepare for further study or research in the field of communication systems and networks."
+      ]
+    }
+  },
+  {
+    "input": "What is the course EC-451 Information Theory and Coding about?",
+    "output": {
+      "course_code": "EC-451",
+      "course_name": "Information Theory and Coding",
+      "course_type": "Stream Core-II",
+      "credits": 2,
+      "semester": 7,
+      "units": [
+        {"unit": "UNIT-01", "topic": "Measures of Information and Channel Capacity: Entropy, Mutual Information, Jensen Inequality, Channel Capacity for BNC, BSC, BEC", "lectures": "06L"},
+        {"unit": "UNIT-02", "topic": "Data Compression: Unique Decodability, Kraft's Inequality, Huffman, Shannon-Fano-Elias, Lempel-Ziv coding", "lectures": "06L"},
+        {"unit": "UNIT-03", "topic": "Design of Linear Block Codes: Syndrome, Error Detection, Minimum Distance, Encoder and Syndrome Decoder", "lectures": "06L"},
+        {"unit": "UNIT-04", "topic": "Convolutional Codes: Encoding, Structural Properties, Distance Properties, Encoder and Decoder design", "lectures": "06L"}
+      ]
+    }
+  },
+  {
+    "input": "What is EC-498 Holistic Assessment?",
+    "output": {
+      "course_code": "EC-498",
+      "course_name": "Holistic Assessment / General Proficiency",
+      "course_type": "Institute Core",
+      "credits": 2,
+      "semester": 8
+    }
+  },
+  {
+    "input": "What are the books for EC-213 Communication Theory?",
+    "output": {
+      "course_code": "EC-213",
+      "course_name": "Communication Theory",
+      "books_and_references": [
+        "Elements of Communication Theory by J.C. Hancock, McGraw-Hill Education Publisher.",
+        "Principles of Communication System by Taub & Schilling, McGraw-Hill Education Publisher.",
+        "Communication Systems by S. Haykin, Wiley Publication."
+      ]
+    }
+  },
+  {
+    "input": "What is the structure of EC-382 Simulation of Communication Systems?",
+    "output": {
+      "course_code": "EC-382",
+      "course_name": "Simulation of Communication Systems",
+      "course_type": "Stream Core-I",
+      "credits": 2,
+      "semester": 6,
+      "units": [
+        {"unit": "UNIT-01", "topic": "Introduction to Communication Systems and Programming Essentials: Signal representation, Analog/Digital modulation, MATLAB and Python basics", "hours": "08L"},
+        {"unit": "UNIT-02", "topic": "Communication System Modeling in MATLAB: Modulating, Channel modeling, Analog and Digital modulation simulation, Performance analysis", "hours": "08L"},
+        {"unit": "UNIT-03", "topic": "Communication System Modeling in Python: NumPy, SciPy, Matplotlib, OOP for complex system modeling, Advanced signal processing", "hours": "08L"},
+        {"unit": "UNIT-04", "topic": "Advanced Topics: Channel coding and decoding, Synchronization methods, MIMO systems, Software-defined radio", "hours": "06L"}
+      ]
+    }
+  },
+  {
+    "input": "What are the course objectives for EC-481 Adaptive Signal Processing?",
+    "output": {
+      "course_code": "EC-481",
+      "course_name": "Adaptive Signal Processing",
+      "course_type": "Stream Elective-II",
+      "credits": 3,
+      "course_objectives": [
+        "To introduce signal processing techniques for adaptive systems.",
+        "To understand the applications of adaptive systems in communications, radar, sonar, seismology, navigation systems and biomedical engineering.",
+        "To study the basic principles of adaptation, various adaptive signal processing algorithms for adaptive noise cancellation, interference cancelling, and system identification."
+      ]
+    }
+  },
+  {
+    "input": "What is the syllabus for HS-321 Engineering Economics and Accountancy?",
+    "output": {
+      "course_code": "HS-321",
+      "course_name": "Engineering Economics and Accountancy",
+      "course_type": "Core",
+      "credits": 2,
+      "semester": 6,
+      "units": [
+        {"unit": "UNIT-01", "topic": "Introduction to Engineering Economics: Theory of Demand & Supply, Law of Demand, Elasticity, Demand Forecasting", "hours": "06L"},
+        {"unit": "UNIT-02", "topic": "Production and Cost: Production functions, Laws of Returns to Scale, Cost curves, Break even analysis", "hours": "06L"},
+        {"unit": "UNIT-03", "topic": "Costing and Appraisal: Cost elements, Overhead cost, Criteria of project appraisal, Social cost benefit analysis", "hours": "05L"},
+        {"unit": "UNIT-04", "topic": "Markets: Perfect Competition, Monopoly, Monopolistic Competition, Oligopoly, Price and Output Determination", "hours": "05L"},
+        {"unit": "UNIT-05", "topic": "Money: Monetary Policy, Fiscal Policy, Banking, Central Bank, CRR, Bank Rate, Repo Rate, SLR", "hours": "04L"},
+        {"unit": "UNIT-06", "topic": "Depreciation: Straight line, Diminishing balance, Annuity and Sinking Fund methods", "hours": "04L"},
+        {"unit": "UNIT-07", "topic": "Financial Accounting: Double entry system, Journal, Ledger, Trial Balance, Trading Account, Profit and Loss Account, Balance Sheet", "hours": "06L"}
+      ]
+    }
+  },
+  {
+    "input": "Which semester does Industrial Training Evaluation EC-416 happen and what are its details?",
+    "output": {
+      "course_code": "EC-416",
+      "course_name": "Industrial Training Evaluation",
+      "course_type": "Discipline Core",
+      "credits": 2,
+      "semester": 7,
+      "contact_hours": "4P",
+      "note": "Students should undergo vocational training during summer vacations after the sixth semester."
+    }
+  },
+  {
+    "input": "What is the UG Project EC-499 and what credit does it carry?",
+    "output": {
+      "course_code": "EC-499",
+      "course_name": "UG Project",
+      "course_type": "Discipline Core",
+      "credits": 12,
+      "semester": 8,
+      "note": "Students opting for internship will complete the UG project. The remaining credit requirements will be fulfilled by opting Free Elective Courses."
+    }
+  }
+]
